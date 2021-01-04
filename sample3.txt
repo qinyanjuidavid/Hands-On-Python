@@ -1,0 +1,2 @@
+This File is meant to be read.
+I think i can add some stuff that will be displayed on my terminal window
