@@ -55,8 +55,50 @@ print("Get some exercise outside")
 # day=headsTail()
 # day.flip()
 
-def letterGrade(score):
-    score=eval(input(""))
-    if score>=80:
-        letter="A"
+def StudentsGrade():
+    # marks=eval(input("Enter the students marks:"))
+    marks=86
+    if marks>=80 and marks<=100:
+        print("The student scored an A.")
+    elif marks>=75:
+        print("The student scored an A-")
+    elif marks>=70:
+        print("The student scored a B+.")
+    elif marks>=65:
+        print("The student scored a B.")
+    elif marks>=54:
+        print("The student scored a B-.")
+    elif marks>=49:
+        print("The student scored a C+.")
+    elif marks>=44:
+        print("The student scored a C.")
+    elif marks>=39:
+        print("The student scored a D+.")
+    elif marks>=34:
+        print("The student scored a D.")
+    elif marks>=24:
+        print('The student scored a D-.')
+    elif marks<=23 and marks>=0:
+        print("The student failed.")
+    else:
+        print("Please check the students score and enter again!!!")
+StudentsGrade()
+# Nested loops
+def PrintAllPositive(numberList):
+    """:arg """
+    for num in numberList:
+        if num>0:
+            print("Positive numbers",num)
+PrintAllPositive([3,-6,8,92,56,12,])
+
+def PrintEvenNumbers(nums):
+    """:arg"""
+    for num in nums:
+        if num%2==0:
+            print(num)
+PrintEvenNumbers([3,5,6,9,8,5,1,7,10,18])
+
+def ChooseEven(num):
+    ""
+
 
