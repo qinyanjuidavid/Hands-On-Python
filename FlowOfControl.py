@@ -98,7 +98,22 @@ def PrintEvenNumbers(nums):
             print(num)
 PrintEvenNumbers([3,5,6,9,8,5,1,7,10,18])
 
-def ChooseEven(num):
-    ""
+def ChooseEven():
+    """
+    :param num:
+    :return:
+    """
+    myList=[]
+    for i in range(3):
+        num=eval(input("Enter the the numbers:"))
+        myList.append(num)
+    newList=[]
+    for num in myList:
+        if num%2==0:
+            newList.append(num)
+    print(newList)
+ChooseEven()
+
+
 
 
