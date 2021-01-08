@@ -43,6 +43,32 @@ print(name)
 #     print(line)
 
 #Trial
-myList=[]
-numStudents=eval(input("How many students are in your class?"))
-for 
+# classDetails=[]
+# numStudents=eval(input("How many students are in your class?"))
+# for name in range(numStudents):
+#     studentsName=input("Enter the Students name:")
+#     print("Please enter the student marks....")
+#     English=eval(input("English:"))
+#     kiswahili=eval(input("Kiswahili:"))
+#     mathematics=eval(input("Maths:"))
+#     sst=eval(input("Social Studies:"))
+#     science=eval(input("Science:"))
+#     totalMarks=English+kiswahili+mathematics+sst+science
+#
+#     studentDetails={studentsName:{
+#         "Mathematics":mathematics,
+#         "Kiswahili":kiswahili,
+#         "English":English,
+#         "Social Studies":sst,
+#         'Science':science,
+#         "Total Marks":totalMarks
+#     }}
+#     classDetails.append(studentDetails)
+# print(classDetails)
+
+
+
+
+
+
+
