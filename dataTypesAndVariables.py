@@ -31,3 +31,18 @@ NAME="John Doe"
 print(NAME)
 name="jane Doe"
 print(name)
+
+#Interactive while loops
+# lines=list()
+# n=int(input("How many lines do you want to enter?"))
+# for i in range(n):
+#     line=input("Next line:")
+#     lines.append(line)
+# print(f"Your lines were:")
+# for line in lines:
+#     print(line)
+
+#Trial
+myList=[]
+numStudents=eval(input("How many students are in your class?"))
+for 
