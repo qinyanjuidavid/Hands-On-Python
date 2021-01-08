@@ -132,3 +132,4 @@ def Graduate():
     else:
         print("You are not eligible to graduate.")
 Graduate()
+
